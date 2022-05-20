@@ -1,0 +1,20 @@
+.work {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work_title {
+
+}
+
+.work_logo {
+
+}
+
+
+.work_description {
+
+}

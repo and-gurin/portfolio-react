@@ -1,0 +1,20 @@
+.main {
+    background-color: lightpink;
+}
+
+.main_content {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_intro {
+    background-color: lightgrey;
+    width: 300px;
+}
+.main_photo {
+    background-color: lightyellow;
+    width: 300px;
+    height: 300px;
+}

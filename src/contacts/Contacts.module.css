@@ -1,0 +1,25 @@
+.contacts {
+    background-color: #f1d7e4;
+}
+
+.contacts_content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: rebeccapurple 1px solid;
+}
+
+.contacts_form {
+    color: red;
+    background-color: lightgray;
+    border: solid 1px rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.contacts_field {
+    margin: 10px 5px;
+    display: inline-block;
+}

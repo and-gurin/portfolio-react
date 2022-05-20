@@ -1,0 +1,20 @@
+.skill {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills_title {
+
+}
+
+.skills_logo {
+
+}
+
+
+.skills_description {
+
+}

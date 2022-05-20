@@ -1,0 +1,10 @@
+.header {
+    height: 80px;
+    background-color: dodgerblue;
+}
+
+.header_content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
