@@ -7,7 +7,7 @@ export function Work(props) {
         <div className={style.work}>
                 <div className={style.work_logo}>
                 </div>
-                <button className={style.work_title}>look</button>
+                <button className={style.work_title}><a href="#">look</a></button>
             <div className={style.work_description}>
                 <p>{props.title}</p>
                 <p>Short description</p>

@@ -2,8 +2,10 @@
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .skills_title {
@@ -11,6 +13,9 @@
 }
 
 .skills_logo {
+    width: 60px;
+    height: 60px;
+    background-color: darkgray;
 
 }
 

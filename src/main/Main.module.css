@@ -3,10 +3,11 @@
 }
 
 .main_content {
-    height: 50vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .main_intro {

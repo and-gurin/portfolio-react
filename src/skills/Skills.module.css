@@ -3,7 +3,6 @@
 }
 
 .skills_content {
-    height: 50vh;
     margin: 0 auto;
 }
 
@@ -16,5 +15,6 @@
     background-color: lightyellow;
     border: rebeccapurple 1px solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
