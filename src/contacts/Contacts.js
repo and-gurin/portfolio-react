@@ -1,22 +1,23 @@
 import React from "react";
-import style from './Contacts.module.css'
-import container from '../common/style/Conteiner.module.css'
+import style from './Contacts.module.scss'
+import container from '../common/style/Container.module.css'
+import {Title} from "../common/components/title/Title";
 
 
 export function Contacts() {
     return (
         <div className={style.contacts}>
-            <div className={`${container.container} ${style.contacts_content}`}>
-                <h2>Contacts</h2>
-                <form className={style.contacts_form} action="#">
-                    <input placeholder='name' className={style.contacts_field} type="text"/>
-                    <input placeholder='email' className={style.contacts_field} type="text"/>
-                    <textarea className={style.contacts_field}
+            <div className={`${container.container} ${style.contacts__container}`}>
+                <Title title={'Contacts'}/>
+                <form className={style.contacts__form} action="#">
+                    <input placeholder='Name' className={style.contacts__field} type="text"/>
+                    <input placeholder='E-mail' className={style.contacts__field} type="text"/>
+                    <textarea className={style.contacts__field}
                               rows="7" cols="45"
-                              placeholder='enter the text'
-                              name="textarea">hello</textarea>
+                              placeholder='Message'
+                              name="textarea"/>
                 </form>
-                <button>Hire me</button>
+                <button type="submit" >Hire me</button>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Main.module.css'
-import container from '../common/style/Conteiner.module.css'
+import container from '../common/style/Container.module.css'
 
 
 export function Main() {
@@ -13,7 +13,6 @@ export function Main() {
                     <p>React developer</p>
                 </div>
                 <div className={style.main_photo}>
-
                 </div>
             </div>
         </div>

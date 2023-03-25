@@ -1,0 +1,48 @@
+@import './src/common/style/sass/constants';
+@import './src/common/style/sass/mixins';
+@import './src/common/style/sass/placeholders';
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 500px;
+    text-align: left;
+    margin-bottom: 20px;
+    &__image {
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        &:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: $bgFirstColor;
+            opacity: 0.3;
+        }
+    }
+
+    &__description {
+        background-color: $bgSecondColor;
+        padding: 25px 20px;
+    }
+    &__title {
+        margin: 0 0 15px 0;
+        @extend %font-primary;
+        @include font(16px, 1.2, 700);
+    }
+    &__subtitle {
+        @extend %font-additional;
+        @include font(12px, 1.8, 400);
+    }
+}

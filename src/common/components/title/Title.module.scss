@@ -1,0 +1,28 @@
+@import '../../style/sass/constants';
+@import '../../style/sass/mixins';
+@import '../../style/sass/placeholders';
+
+.Title {
+  text-align: center;
+  position: relative;
+  margin: 0 0 60px 0;
+
+  &:after {
+    content: '';
+    position: absolute;
+    background: $primaryColor;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  &__body {
+    @extend %font-primary;
+    @include font(36px, 1.2, 300);
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin: 0;
+  }
+}

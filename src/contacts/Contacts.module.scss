@@ -1,0 +1,73 @@
+@import './src/common/style/sass/constants';
+@import './src/common/style/sass/mixins';
+@import './src/common/style/sass/placeholders';
+@import './src/common/style/sass/placeholders';
+@import './src/common/components/button/button.module';
+
+
+
+.contacts {
+    background-color: $bgFirstColor;
+    padding: 100px 0;
+    &__container {
+        @include flex(column, flex-start, center, nowrap);
+        border: rebeccapurple 1px solid;
+    }
+    &__form {
+        color: red;
+        background-color: $bgFirstColor;
+        @include flex(column, flex-start, stretch, nowrap);
+        width: 540px;
+        margin-top: 60px;
+        @media screen and (max-width: 680px){
+            width: 100%;
+        }
+    }
+    &__field {
+        background-color: $bgSecondColor;
+        border: 1px solid #4a4a4a;
+        box-sizing: border-box;
+        @extend %font-additional;
+        @include font(12px, 1.5, 400);
+        outline: none;
+        color: #495057;
+        margin-bottom: 1.2rem;
+        display: inline-block;
+        &:-webkit-autofill {
+            border: 1px solid #4a4a4a;
+            -webkit-text-fill-color: #1f1f20;
+            -webkit-box-shadow: 0 0 0 1000px #252527 inset;
+            transition: background-color 5000s ease-in-out 0s;
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+
+        }
+        &:focus {
+            border: 1px solid $bgSecondColor;
+            transition: all 0.4s ease-in-out 0s;
+        }
+    }
+}
+
+//input:-webkit-autofill,
+//input:-webkit-autofill:hover,
+//input:-webkit-autofill:focus,
+//input:-webkit-autofill,
+//textarea:-webkit-autofill,
+//textarea:-webkit-autofill:hover,
+//textarea:-webkit-autofill:focus,
+//select:-webkit-autofill,
+//select:-webkit-autofill:hover,
+//select:-webkit-autofill:focus {
+//    border: 0;
+//    -webkit-text-fill-color: #1f1f20;
+//    -webkit-box-shadow: 0 0 0 1000px $bgSecondColor inset;
+//    transition: background-color 5000s ease-in-out 0s;
+//    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+//}
+
+
+button[type='submit'] {
+    @extend .button;
+    padding: 10px 20px;
+    background-color: transparent;
+}
