@@ -1,9 +1,12 @@
+@import './src/common/style/sass/constants';
+@import './src/common/style/sass/mixins';
+@import './src/common/style/sass/placeholders';
+
 .header {
     height: 80px;
-    background-color: dodgerblue;
-    &__content {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
+    background-color: $bgFirstColor;
+    @include flex(row, flex-end, center, nowrap);
+    &__container {
+        @include flex(row, flex-end, center, nowrap);
     }
 }

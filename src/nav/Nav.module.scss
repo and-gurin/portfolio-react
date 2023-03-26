@@ -1,0 +1,14 @@
+@import './src/common/style/sass/constants';
+@import './src/common/style/sass/mixins';
+@import './src/common/style/sass/placeholders';
+
+.nav {
+    width: 300px;
+    @include flex(row, space-between, center, nowrap);
+    &__ref {
+        text-decoration: none;
+        @extend %font-additional;
+        @include font(16px, 1.5, 400);
+        color: $textColor;
+    }
+}

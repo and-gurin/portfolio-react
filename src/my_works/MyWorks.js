@@ -44,7 +44,7 @@ export function MyWorks() {
 
 
     return (
-        <div className={style.MyWorks}>
+        <div id={'projects'} className={style.MyWorks}>
             <div className={`${container.container} ${style.MyWorks__content}`}>
                 <Title title={'Projects'}/>
                 <div className={style.MyWorks__items}>

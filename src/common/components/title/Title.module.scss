@@ -20,7 +20,7 @@
 
   &__body {
     @extend %font-primary;
-    @include font(36px, 1.2, 300);
+    @include font(36px, 1.2, 500);
     letter-spacing: 5px;
     text-transform: capitalize;
     margin: 0;

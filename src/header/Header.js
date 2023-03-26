@@ -6,7 +6,7 @@ import container from '../common/style/Container.module.css'
 export function Header() {
     return (
         <div className={style.header}>
-            <div className={`${container.container} ${style.header__content}`}>
+            <div className={`${container.container} ${style.header__container}`}>
                 <Nav/>
             </div>
 
