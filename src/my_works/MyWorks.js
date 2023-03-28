@@ -1,6 +1,6 @@
 import React from "react";
 import style from './MyWorks.module.scss'
-import container from '../common/style/Container.module.css'
+import container from '../common/style/Container.module.scss'
 import {Work} from './work/Work';
 import {Title} from '../common/components/title/Title';
 import momentumImage from './../../src/assets/image/momentum.jpg'

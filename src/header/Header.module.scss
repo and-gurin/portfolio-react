@@ -3,10 +3,13 @@
 @import './src/common/style/sass/placeholders';
 
 .header {
-    height: 80px;
-    background-color: $bgFirstColor;
+  height: 80px;
+  background-color: $bgSecondColor;
+  @include flex(row, flex-end, center, nowrap);
+
+  &__container {
+    width: 90%;
+    margin: 0 auto;
     @include flex(row, flex-end, center, nowrap);
-    &__container {
-        @include flex(row, flex-end, center, nowrap);
-    }
+  }
 }

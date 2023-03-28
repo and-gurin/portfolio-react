@@ -1,6 +1,6 @@
 import React from "react";
 import style from './JobOptions.module.css'
-import container from '../common/style/Container.module.css'
+import container from '../common/style/Container.module.scss'
 
 
 export function JobOptions() {

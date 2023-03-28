@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Contacts.module.scss'
-import container from '../common/style/Container.module.css'
+import container from '../common/style/Container.module.scss'
 import {Title} from "../common/components/title/Title";
 
 

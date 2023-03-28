@@ -1,0 +1,14 @@
+@import './src/common/style/sass/constants.scss';
+
+html {
+    scroll-behavior: smooth;
+    color: $textColor;
+}
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
