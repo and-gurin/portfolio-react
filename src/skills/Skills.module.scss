@@ -1,0 +1,21 @@
+@import './src/common/style/sass/constants';
+@import './src/common/style/sass/mixins';
+@import './src/common/style/sass/placeholders';
+
+.skills {
+  background-color: $bgSecondColor;
+  padding: 100px 0;
+
+  &__container {
+    margin: 0 auto;
+  }
+
+  &__items {
+    background-color: $bgSecondColor;
+    @include flex(row, space-around, center, wrap);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+}

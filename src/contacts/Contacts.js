@@ -17,7 +17,7 @@ export function Contacts() {
                               placeholder='Message'
                               name="textarea"/>
                 </form>
-                <button type="submit" >Hire me</button>
+                <button type="submit">Hire me</button>
             </div>
         </div>
     )

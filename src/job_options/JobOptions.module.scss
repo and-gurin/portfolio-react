@@ -1,0 +1,33 @@
+@import './src/common/style/sass/constants';
+@import './src/common/style/sass/mixins';
+@import './src/common/style/sass/placeholders';
+@import './src/common/components/button/button.module';
+
+
+.jobOptions {
+  background-color: $bgSecondColor;
+
+  &__container {
+    text-align: center;
+    height: 50vh;
+    @include flex(column, space-around, center, wrap);
+  }
+
+  &__title {
+    @extend %font-additional;
+    @include font(28px, 1.8, 400);
+    letter-spacing: 3px;
+  }
+
+  &__ref {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  &__button {
+    @extend .button;
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

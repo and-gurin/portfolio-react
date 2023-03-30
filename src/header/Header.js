@@ -8,8 +8,6 @@ export function Header() {
             <div className={`${style.header__container}`}>
                 <Nav/>
             </div>
-
-
         </div>
     )
 }
