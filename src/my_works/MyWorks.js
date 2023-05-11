@@ -31,7 +31,7 @@ export function MyWorks() {
     const momentumUrl = 'https://and-gurin.github.io/momentum/';
     const plantsUrl = 'https://and-gurin.github.io/plants/';
     const hwUrl = 'https://and-gurin.github.io/hws2/#/pre-junior';
-    const nordicUrl = 'https://and-gurin.github.io/hws2/#/pre-junior';
+    const nordicUrl = 'https://and-gurin.github.io/nordic-rose-react';
 
     const todoDescription = 'Made it possible to add delete edit a task, or a task sheet with React. Connected Redux with\n' +
         'useSelector and useDispatch hooks. Optimized with React.memo and useCallback.\n' +
