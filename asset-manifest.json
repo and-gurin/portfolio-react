@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.b70f9ff6.css",
-    "main.js": "/portfolio-react/static/js/main.34b090b3.js",
-    "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
+    "main.js": "/portfolio-react/static/js/main.ffd5d90f.js",
     "static/media/foto_main.jpg": "/portfolio-react/static/media/foto_main.c0135ece178a5c3f0251.jpg",
     "static/media/momentum.jpg": "/portfolio-react/static/media/momentum.fafbb686908efad82f2f.jpg",
-    "static/media/todo-list.jpg": "/portfolio-react/static/media/todo-list.a780a33dc22aede37473.jpg",
+    "static/media/todo.jpg": "/portfolio-react/static/media/todo.6b15bb486995cc3cb5de.jpg",
     "static/media/HWTasks.jpg": "/portfolio-react/static/media/HWTasks.b7903537111816a59d30.jpg",
     "static/media/Plants.jpg": "/portfolio-react/static/media/Plants.bdfd9622e48ec00a1127.jpg",
+    "static/media/Nordic-Rose.jpg": "/portfolio-react/static/media/Nordic-Rose.f35f6c50f9c554be657d.jpg",
     "static/media/react-svgrepo-com.svg": "/portfolio-react/static/media/react-svgrepo-com.58329a96187d151a5de70ebf9eb535ca.svg",
     "static/media/nodejs02-svgrepo-com.svg": "/portfolio-react/static/media/nodejs02-svgrepo-com.74450ed652ee044ee0b80aae33a1af49.svg",
     "static/media/github-142-svgrepo-com.svg": "/portfolio-react/static/media/github-142-svgrepo-com.407b6e03d00be063c721174594c4f1e3.svg",
@@ -18,11 +18,10 @@
     "static/media/rest-api-svgrepo-com.svg": "/portfolio-react/static/media/rest-api-svgrepo-com.8ef98ae61acfc7a305d651c5b51a465d.svg",
     "static/media/material-ui-svgrepo-com.svg": "/portfolio-react/static/media/material-ui-svgrepo-com.57c0b06cb10f1c6d52a79f00f9254b5f.svg",
     "main.b70f9ff6.css.map": "/portfolio-react/static/css/main.b70f9ff6.css.map",
-    "main.34b090b3.js.map": "/portfolio-react/static/js/main.34b090b3.js.map",
-    "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
+    "main.ffd5d90f.js.map": "/portfolio-react/static/js/main.ffd5d90f.js.map"
   },
   "entrypoints": [
     "static/css/main.b70f9ff6.css",
-    "static/js/main.34b090b3.js"
+    "static/js/main.ffd5d90f.js"
   ]
 }
