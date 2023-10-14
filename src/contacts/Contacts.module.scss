@@ -1,7 +1,7 @@
-@import './src/common/style/sass/constants';
-@import './src/common/style/sass/mixins';
-@import './src/common/style/sass/placeholders';
-@import './src/common/components/button/button.module';
+@import '../common/style/sass/constants';
+@import '../common/style/sass/mixins';
+@import '../common/style/sass/placeholders';
+@import '../common/components/button/button.module';
 
 
 .contacts {
@@ -13,11 +13,12 @@
   }
 
   &__form {
-    color: red;
     background-color: $bgFirstColor;
     @include flex(column, flex-start, stretch, nowrap);
-    width: 540px;
-    margin-top: 60px;
+    gap: 16px;
+    align-items: center;
+    max-width: 540px;
+    width: 100%;
     @media screen and (max-width: 680px) {
       width: 100%;
     }
@@ -25,14 +26,20 @@
 
   &__field {
     background-color: $bgSecondColor;
+    padding: 7px 15px;
     border: 1px solid #4a4a4a;
     box-sizing: border-box;
+    width: 100%;
+    height: 32px;
     @extend %font-additional;
     @include font(12px, 1.5, 400);
     outline: none;
-    color: #495057;
-    margin-bottom: 1.2rem;
+    color: $textColor;
     display: inline-block;
+
+    &::placeholder {
+      color: #495057;
+    }
 
     &:-webkit-autofill {
       border: 1px solid #4a4a4a;
@@ -40,12 +47,16 @@
       -webkit-box-shadow: 0 0 0 1000px #252527 inset;
       transition: background-color 5000s ease-in-out 0s;
       background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 174, 255, 0.04) 50%, rgba(255, 255, 255, 0) 51%, rgba(0, 174, 255, 0.03) 100%);
-
     }
 
     &:focus {
       border: 1px solid $bgSecondColor;
       transition: all 0.4s ease-in-out 0s;
+    }
+
+    &_area {
+      height: 155px;
+      resize: none;
     }
   }
 }

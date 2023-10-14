@@ -1,21 +1,30 @@
-@import '../../common/style/sass/constants';
-@import '../../common/style/sass/mixins';
-@import '../../common/style/sass/placeholders';
+@import '../common/style/sass/constants';
+@import '../common/style/sass/mixins';
+@import '../common/style/sass/placeholders';
+
+.testimony {
+  background-color: $bgSecondColor;
+  padding: 100px 0;
+
+  &__container {
+    @include flex(column, space-around, center, nowrap);
+  }
+}
 
 .skill {
   background-color: $bgSecondColor;
   @include flex(column, center, center, nowrap);
   text-align: center;
-  padding: 20px 0;
-  width: 250px;
+  max-width: 500px;
+  width: 100%;
 
   &__figure {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background-color: rgba(255, 255, 255, 0.1);
     @include flex(column, center, center, nowrap);
     transform: rotate(45deg);
-    margin-bottom: 40px;
+    margin-bottom: 61px;
   }
 
   &__logo {
@@ -30,11 +39,15 @@
   &__title {
     margin: 0 0 15px 0;
     @extend %font-primary;
-    @include font(16px, 1.2, 700);
+    @include font(16px, normal, 600);
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   &__description {
     @extend %font-additional;
-    @include font(12px, 1.8, 400);
+    @include font(14px, 1.8, 400);
+    margin-bottom: 22px;
   }
 }

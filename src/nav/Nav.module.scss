@@ -1,17 +1,25 @@
-@import './src/common/style/sass/constants';
-@import './src/common/style/sass/mixins';
-@import './src/common/style/sass/placeholders';
+@import '../common/style/sass/constants';
+@import '../common/style/sass/mixins';
+@import '../common/style/sass/placeholders';
 
 .nav {
   width: 300px;
-  @include flex(row, space-between, center, nowrap);
-  transition: all 0.3s ease-out;
+  @include flex(column, center, center, nowrap);
+  gap: 20px;
 
   &__ref {
     text-decoration: none;
-    @extend %font-additional;
-    @include font(14px, 1.5, 400);
-    transition: all 0.3s ease-out;
+    @extend %font-primary;
+    @include font(50px, 55px, 400, $primaryColor);
+    transition: color 0.3s ease-out;
+    border-bottom: solid 3px transparent;
+
+
+    &:hover {
+      box-sizing: border-box;
+      color: $textColor;
+      border-bottom: solid 3px $textColor;
+    }
   }
 
 }

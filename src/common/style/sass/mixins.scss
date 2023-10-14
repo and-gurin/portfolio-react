@@ -1,11 +1,11 @@
-@import './src/common/style/sass/constants';
+@import './constants';
 
 
-@mixin font ($fontSize, $lineHeight, $fontWeight) {
+@mixin font ($fontSize, $lineHeight, $fontWeight, $color: $textColor) {
   font-size: $fontSize;
   line-height: $lineHeight;
   font-weight: $fontWeight;
-  color: $textColor;
+  color: $color;
 }
 
 @mixin flex ($flexDirection, $justify, $align, $wrap) {

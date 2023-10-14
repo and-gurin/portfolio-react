@@ -1,4 +1,4 @@
-@import './src/common/style/sass/constants.scss';
+@import './sass/constants';
 
 html {
     scroll-behavior: smooth;
@@ -11,4 +11,9 @@ html {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }

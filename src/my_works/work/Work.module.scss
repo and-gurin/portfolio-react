@@ -1,15 +1,16 @@
-@import './src/common/style/sass/constants';
-@import './src/common/style/sass/mixins';
-@import './src/common/style/sass/placeholders';
+@import '../../common/style/sass/constants';
+@import '../../common/style/sass/mixins';
+@import '../../common/style/sass/placeholders';
 
 .work {
   @include flex(column, space-between, flex-start, wrap);
-  width: 500px;
+  max-width: 540px;
+  width: 100%;
   text-align: left;
   margin-bottom: 20px;
 
   &__image {
-    height: 220px;
+    height: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +34,7 @@
   &__description {
     background-color: $bgSecondColor;
     padding: 25px 20px;
+    width: 100%;
   }
 
   &__title {

@@ -4,9 +4,9 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {MyWorks} from "./my_works/MyWorks";
-import {JobOptions} from "./job_options/JobOptions";
 import {Contacts} from "./contacts/Contacts";
 import {Footer} from "./footer/Footer";
+import {Testimony} from "./testimony/Testimony";
 
 function App() {
     return (
@@ -15,7 +15,7 @@ function App() {
             <Main/>
             <Skills/>
             <MyWorks/>
-            <JobOptions/>
+            <Testimony/>
             <Contacts/>
             <Footer/>
         </div>

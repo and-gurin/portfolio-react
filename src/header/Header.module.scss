@@ -1,15 +1,56 @@
-@import './src/common/style/sass/constants';
-@import './src/common/style/sass/mixins';
-@import './src/common/style/sass/placeholders';
+@import '../common/style/sass/constants';
+@import '../common/style/sass/mixins';
+@import '../common/style/sass/placeholders';
 
 .header {
   height: 80px;
-  background-color: $bgSecondColor;
+  background-color: $bgFirstColor;
   @include flex(row, flex-end, center, nowrap);
+  position: relative;
 
   &__container {
     width: 90%;
     margin: 0 auto;
     @include flex(row, flex-end, center, nowrap);
+  }
+
+  &__icon {
+    color: $textColor;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 5;
+    transition: color 0.9s ease-out;
+
+    :hover{
+      color: $primaryColor;
+    }
+
+    &_menu {
+      top: 3px;
+      right: 7px;
+    }
+  }
+
+  &__svg {
+    cursor: pointer;
+  }
+
+  &__nav {
+    @include flex(row , center, center, nowrap);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: rgba(31, 31, 32, 0.95);
+    transition: all 0.8s ease-out;
+    transform: translateY(-100%);
+
+    &_active {
+      transform: translateY(0);
+      transition: all 0.9s ease-out;
+    }
   }
 }
