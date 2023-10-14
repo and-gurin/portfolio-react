@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.b70f9ff6.css",
-    "main.js": "/portfolio-react/static/js/main.46d1e919.js",
-    "static/media/foto_main.jpg": "/portfolio-react/static/media/foto_main.c0135ece178a5c3f0251.jpg",
-    "static/media/momentum.jpg": "/portfolio-react/static/media/momentum.fafbb686908efad82f2f.jpg",
-    "static/media/todo.jpg": "/portfolio-react/static/media/todo.6b15bb486995cc3cb5de.jpg",
-    "static/media/HWTasks.jpg": "/portfolio-react/static/media/HWTasks.b7903537111816a59d30.jpg",
-    "static/media/Plants.jpg": "/portfolio-react/static/media/Plants.bdfd9622e48ec00a1127.jpg",
-    "static/media/Nordic-Rose.jpg": "/portfolio-react/static/media/Nordic-Rose.f35f6c50f9c554be657d.jpg",
+    "main.css": "/portfolio-react/static/css/main.2e51b912.css",
+    "main.js": "/portfolio-react/static/js/main.9b71423e.js",
+    "static/media/foto_main.jpg": "/portfolio-react/static/media/foto_main.66215df86892a4531055.jpg",
+    "static/media/furniture.png": "/portfolio-react/static/media/furniture.39014c013829f8e5a0d5.png",
+    "static/media/nordic.jpg": "/portfolio-react/static/media/nordic.0c96bcf75a1e04b3d7fc.jpg",
+    "static/media/comments.png": "/portfolio-react/static/media/comments.9ff6519c168ba0f98582.png",
+    "static/media/momentum.jpg": "/portfolio-react/static/media/momentum.dbdd122e9409c832f5a7.jpg",
+    "static/media/components-library.jpg": "/portfolio-react/static/media/components-library.7c053d787b4ea6b398c8.jpg",
+    "static/media/Plants.jpg": "/portfolio-react/static/media/Plants.5538de3d70379ce7e1d8.jpg",
     "static/media/react-svgrepo-com.svg": "/portfolio-react/static/media/react-svgrepo-com.58329a96187d151a5de70ebf9eb535ca.svg",
+    "static/media/quote-alt-right-svg.svg": "/portfolio-react/static/media/quote-alt-right-svg.3ca2e0179c988a21855aad6021143c58.svg",
     "static/media/nodejs02-svgrepo-com.svg": "/portfolio-react/static/media/nodejs02-svgrepo-com.74450ed652ee044ee0b80aae33a1af49.svg",
     "static/media/github-142-svgrepo-com.svg": "/portfolio-react/static/media/github-142-svgrepo-com.407b6e03d00be063c721174594c4f1e3.svg",
     "static/media/javascript-155-svgrepo-com.svg": "/portfolio-react/static/media/javascript-155-svgrepo-com.90aea09998d384c4077ae4490cdf8a15.svg",
+    "static/media/typescript.svg": "/portfolio-react/static/media/typescript.7d7b920bf3ee56f8bbed34e983e4a6ca.svg",
     "static/media/html-124-svgrepo-com.svg": "/portfolio-react/static/media/html-124-svgrepo-com.6a841cb1bb5c4e2afe7da1403d8cf04c.svg",
-    "static/media/typescript-logo-svgrepo-com.svg": "/portfolio-react/static/media/typescript-logo-svgrepo-com.7942d390fbf43df0567ce02645913f74.svg",
     "index.html": "/portfolio-react/index.html",
     "static/media/rest-api-svgrepo-com.svg": "/portfolio-react/static/media/rest-api-svgrepo-com.8ef98ae61acfc7a305d651c5b51a465d.svg",
     "static/media/material-ui-svgrepo-com.svg": "/portfolio-react/static/media/material-ui-svgrepo-com.57c0b06cb10f1c6d52a79f00f9254b5f.svg",
-    "main.b70f9ff6.css.map": "/portfolio-react/static/css/main.b70f9ff6.css.map",
-    "main.46d1e919.js.map": "/portfolio-react/static/js/main.46d1e919.js.map"
+    "main.2e51b912.css.map": "/portfolio-react/static/css/main.2e51b912.css.map",
+    "main.9b71423e.js.map": "/portfolio-react/static/js/main.9b71423e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b70f9ff6.css",
-    "static/js/main.46d1e919.js"
+    "static/css/main.2e51b912.css",
+    "static/js/main.9b71423e.js"
   ]
 }
