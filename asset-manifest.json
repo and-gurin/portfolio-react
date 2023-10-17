@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.2e51b912.css",
-    "main.js": "/portfolio-react/static/js/main.9b71423e.js",
+    "main.css": "/portfolio-react/static/css/main.d4d4301f.css",
+    "main.js": "/portfolio-react/static/js/main.61772499.js",
     "static/media/foto_main.jpg": "/portfolio-react/static/media/foto_main.66215df86892a4531055.jpg",
     "static/media/furniture.png": "/portfolio-react/static/media/furniture.39014c013829f8e5a0d5.png",
     "static/media/nordic.jpg": "/portfolio-react/static/media/nordic.0c96bcf75a1e04b3d7fc.jpg",
@@ -19,11 +19,11 @@
     "index.html": "/portfolio-react/index.html",
     "static/media/rest-api-svgrepo-com.svg": "/portfolio-react/static/media/rest-api-svgrepo-com.8ef98ae61acfc7a305d651c5b51a465d.svg",
     "static/media/material-ui-svgrepo-com.svg": "/portfolio-react/static/media/material-ui-svgrepo-com.57c0b06cb10f1c6d52a79f00f9254b5f.svg",
-    "main.2e51b912.css.map": "/portfolio-react/static/css/main.2e51b912.css.map",
-    "main.9b71423e.js.map": "/portfolio-react/static/js/main.9b71423e.js.map"
+    "main.d4d4301f.css.map": "/portfolio-react/static/css/main.d4d4301f.css.map",
+    "main.61772499.js.map": "/portfolio-react/static/js/main.61772499.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e51b912.css",
-    "static/js/main.9b71423e.js"
+    "static/css/main.d4d4301f.css",
+    "static/js/main.61772499.js"
   ]
 }
