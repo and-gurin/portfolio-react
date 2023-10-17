@@ -4,7 +4,7 @@ import {Nav} from '../nav/Nav';
 import {MenuBtn} from '../assets/image/svg/MenuBtn';
 import {CloseBtn} from '../assets/image/svg/CloseBtn';
 
-const links = ["#main", "#skills", "#projects", "#cv", "#contacts", "#about"]
+const links = ["#main", "#skills", "#projects", "#testimony", "#contacts", "#about"]
 export function Header() {
 
     const [isOpen, setIsOpen] = React.useState(false)

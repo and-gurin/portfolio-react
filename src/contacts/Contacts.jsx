@@ -37,7 +37,7 @@ export function Contacts() {
                               rows="7" cols="45"
                               placeholder='Message'
                               name={'message'}/>
-                    <button type={'submit'}>Hire me</button>
+                    <button type={'submit'}>Contact me</button>
                 </form>
             </div>
         </div>

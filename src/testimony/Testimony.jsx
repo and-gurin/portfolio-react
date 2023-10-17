@@ -10,16 +10,16 @@ import './carousel.css'
 
 const testimonies = [
     {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-        author: 'mikhail matusevich'
-    },
-    {
-        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.',
+        text: 'Passionate web developer with particular love to functional programming paradigm.',
         author: 'sergey khval'
     },
     {
-        text: 'Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim.',
-        author: 'iryna hurynovich'
+        text: 'Enthusiastic and detail-oriented front-end Developer with skills in coding, troubleshooting complex problems, and assisting in the timely completion of projects.',
+        author: 'mikhail matusevich'
+    },
+    {
+        text: 'Very good programmer. Hire him will be one of the best solution for your business.',
+        author: 'iryna pachichnevskaya'
     },
 ]
 

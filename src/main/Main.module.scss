@@ -1,6 +1,6 @@
-@import './src/common/style/sass/constants';
-@import './src/common/style/sass/mixins';
-@import './src/common/style/sass/placeholders';
+@import '../common/style/sass/constants';
+@import '../common/style/sass/mixins';
+@import '../common/style/sass/placeholders';
 
 .main {
   background-color: $bgFirstColor;
@@ -24,7 +24,6 @@
         @include font(50px, 1.2, 700);
         color: $textColor;
         letter-spacing: 5px;
-        margin: 10px 0;
 
         span {
           @extend %font-primary;
@@ -51,7 +50,50 @@
 
   &__title {
     @extend %font-additional;
-    @include font(28px, 1.8, 400);
+    @include font(27px, 1.8, 400);
+    margin-bottom: 90px;
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 36px;
+    outline: none;
+    background-color: transparent;
+    text-decoration: none;
+    @extend %font-primary;
+    @include font(16px, 40px, 400);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 110%;
+      bottom: 0;
+      background-color: $primaryColor;
+      z-index: -1;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+
+      &::after {
+        height: 10px;
+        transition: all 0.2s ease-in-out;
+      }
+    }
   }
 
   &__figure {

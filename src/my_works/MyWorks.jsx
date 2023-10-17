@@ -60,18 +60,43 @@ const projects = [
         git: 'https://github.com/and-gurin/plants',
         description: 'Made the structure with HTML+BEM, added styles with CSS+SASS. Added adaptive for a\n' +
             'tablet and phone. And also with JS added burger menu, accordion, custom select',
-        tags: ['landing page']
+        tags: ['landing']
     },
+]
+
+const tabs = [
+    {tag: 'all', title: 'All'},
+    {tag: 'landing', title: 'Landing Page'},
+    {tag: 'spa', title: 'SPA'},
+    {tag: 'react', title: 'React'},
 ]
 
 export function MyWorks() {
 
+    const [activeTab, setActiveTab] = React.useState('all')
+
+    const tabList = tabs.map(tab => {
+
+        const finalClassName = activeTab === tab.tag ? style.myWorks__button + ' ' + style.myWorks__button_active : style.myWorks__button;
+
+        return (
+                <button key={tab.title} className={finalClassName} onClick={() => setActiveTab(tab.tag)}>
+                    {tab.title}
+                </button>
+            )
+        })
+
+    const filteredProjects = activeTab === 'all' ? projects : projects.filter(project => project.tags.includes(activeTab) )
+
     return (
-        <div id={'projects'} className={style.MyWorks}>
-            <div className={`${container.container} ${style.MyWorks__content}`}>
+        <div id={'projects'} className={style.myWorks}>
+            <div className={container.container}>
                 <Title title={'Projects'}/>
-                <div className={style.MyWorks__items}>
-                    <Work projects={projects}/>
+                <div className={style.myWorks__tabs}>
+                    {tabList}
+                </div>
+                <div className={style.myWorks__items}>
+                    <Work projects={filteredProjects}/>
                 </div>
             </div>
         </div>

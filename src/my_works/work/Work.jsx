@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Work.module.scss'
-import {Button} from "../../common/components/button/button";
+import Button from "../../common/components/button/Button";
 
 export function Work({projects}) {
 
