@@ -41,7 +41,7 @@ const projects = [
         url: 'https://and-gurin.github.io/nordic-rose-react',
         git: 'https://github.com/and-gurin/nordic-rose-react',
         description: 'Application includes both parts: frontend created with React and backend created with helps Node JS',
-        tags: ['react', 'spa']
+        tags: ['react', 'spa', 'mobile']
     },
     {
         title: 'Momentum',
@@ -51,7 +51,7 @@ const projects = [
         description: 'I made a music player with a progress bar, playlist, volume control. A weather widget from\n' +
             'the OpenWeatherMap API, an image slider with loading from Flickr and Unsplash by\n' +
             'different tags. Quote block, application setup, two-language translation and todo module',
-        tags: ['spa']
+        tags: ['spa', 'mobile']
     },
     {
         title: 'Plants',
@@ -60,7 +60,7 @@ const projects = [
         git: 'https://github.com/and-gurin/plants',
         description: 'Made the structure with HTML+BEM, added styles with CSS+SASS. Added adaptive for a\n' +
             'tablet and phone. And also with JS added burger menu, accordion, custom select',
-        tags: ['landing']
+        tags: ['landing', 'mobile']
     },
 ]
 
@@ -69,6 +69,7 @@ const tabs = [
     {tag: 'landing', title: 'Landing Page'},
     {tag: 'spa', title: 'SPA'},
     {tag: 'react', title: 'React'},
+    {tag: 'mobile', title: 'Mobile View'},
 ]
 
 export function MyWorks() {
