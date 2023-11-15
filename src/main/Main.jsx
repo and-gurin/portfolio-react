@@ -14,7 +14,7 @@ export function Main() {
                     <a className={style.main__link}
                        rel='noreferrer'
                        target='_blank'
-                       href='https://drive.google.com/file/d/1__WLF_9LX9NPeEAHpeaMvhmw5TANJglC/view?usp=sharing'>
+                       href='https://drive.google.com/file/d/1G6WhYgGrjFIQknALr1RDfiCD9Q-CSEzs/view?usp=sharing'>
                         Download CV
                     </a>
                 </div>
