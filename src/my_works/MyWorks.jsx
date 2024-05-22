@@ -7,7 +7,7 @@ import momentumImage from './../../src/assets/image/momentum.jpg'
 import plantsImage from './../../src/assets/image/Plants.jpg'
 import furnitureImage from './../../src/assets/image/furniture.png'
 import commentsImage from './../../src/assets/image/comments.png'
-import nordicImage from './../../src/assets/image/nordic.jpg'
+import nordicImage from './../../src/assets/image/custom-furniture.jpg'
 import libraryImage from './../../src/assets/image/components-library.jpg'
 
 const projects = [
@@ -36,11 +36,11 @@ const projects = [
         tags: ['react']
     },
     {
-        title: 'Nordic Rose',
+        title: 'Custom furniture',
         style: {backgroundImage: `url(${nordicImage})`},
-        url: 'https://and-gurin.github.io/nordic-rose-react',
-        git: 'https://github.com/and-gurin/nordic-rose-react',
-        description: 'Application includes both parts: frontend created with React and backend created with helps Node JS',
+        url: 'https://inhouse-meble.pl/',
+        git: 'https://github.com/and-gurin/next-furniture',
+        description: 'A landing page designed for a custom furniture company. Made based on Next.js framework.',
         tags: ['react', 'spa', 'mobile']
     },
     {
